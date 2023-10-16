@@ -1,0 +1,49 @@
+{
+    "name": "africoders/flarum-laravel-sso",
+    "description": "Laravel Flarum SSO",
+    "type": "flarum-extension",
+    "homepage": "https://africoders.com",
+    "keywords": [
+        "flarum",
+        "laravel",
+        "sso",
+        "auth",
+        "authentication",
+        "jwt",
+        "php",
+        "wp",
+        "wordpress"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Ogundipe (dhtml)",
+            "email": "diltony@yahoo.com",
+            "homepage": "https://www.africoders.com"
+        }
+    ],
+    "support": {
+    },
+    "funding": [
+    ],
+    "require": {
+        "flarum/core": "^1.2.0",
+         "illuminate/encryption": "8.*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "Africoders\\SSO\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Laravel Flarum SSO (Single Sign On)",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-sign-in-alt",
+                "color": "#E66A2D",
+                "backgroundColor": "#FFE38F"
+            }
+        }
+    }
+}
